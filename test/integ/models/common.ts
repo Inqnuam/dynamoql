@@ -1,4 +1,6 @@
-export const clientConfig = {
+import type { DynamoDBClientConfig } from "@aws-sdk/client-dynamodb";
+
+export const clientConfig: DynamoDBClientConfig = {
   region: "eu-west-3",
   endpoint: "http://localhost:8000",
   credentials: {
