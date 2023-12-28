@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": ["vitest/globals"],
+    "noEmit": true,
+    "noErrorTruncation": false,
+    "isolatedModules": true
+  }
+}

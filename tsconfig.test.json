@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "test",
+    "checkJs": true,
+    "noEmit": true
+  },
+  "include": ["test/**/*"],
+  "exclude": ["test/runtime/**/*", "test/unit/**/*"]
+}
