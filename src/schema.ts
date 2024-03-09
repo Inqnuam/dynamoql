@@ -61,6 +61,11 @@ export class Schema<T> {
    * @deprecated Not deprecated! This is marked as deprecated to not use as JS value but only as Type
    */
   readonly GotItem: Mutable<GotItem<T>>;
+  /**
+   * @description use only to get Schema Raw Type (as you provided) for type checking purpose.
+   * @deprecated Not deprecated! This is marked as deprecated to not use as JS value but only as Type
+   */
+  readonly RawType: T;
 
   #parseSchemaField(field: FieldType) {
     const dbType = getDbType(field);

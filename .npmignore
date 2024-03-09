@@ -1,4 +1,5 @@
 .github
+.husky
 .vscode
 .gitignore
 .npmignore
@@ -11,3 +12,5 @@ test
 build.mjs
 TODO.md
 tsconfig.json
+tsconfig.build.json
+tsconfig.test.json
